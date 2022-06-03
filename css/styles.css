@@ -59,7 +59,7 @@ ul {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  /* outline: 3px dotted blueviolet; */
+  outline: 3px dotted blueviolet;
 }
 
 .visually-hidden {
@@ -76,12 +76,10 @@ ul {
 }
 
 /***********HEADER **********/
-.page-header {
-  /* border-bottom: 1px solid var(--buttom-line-portfolio); */
-}
 
-.header {
+.page-header {
   display: flex;
+  background-color: coral;
 }
 
 .logo {
