@@ -77,7 +77,7 @@ ul {
 
 /***********HEADER **********/
 
-.page-header {
+.header {
   display: flex;
   background-color: coral;
 }
