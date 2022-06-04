@@ -590,20 +590,22 @@
           </ul>
         </div>
         <div class="submit-block">
-          <h2 class="join-title sumbit-moto">Подпишитесь на рассылку</h2>
-          <form action="#" class="submit-part">
+          <h2 class="title-footer join-title sumbit-moto">
+            Подпишитесь на рассылку
+          </h2>
+          <form action="#" class="submit-block__form submit-part">
             <label>
               <input
                 type="email"
                 name="email"
                 placeholder="E-mail"
-                class="input-submit"
+                class="submit-block__input input-submit"
               />
             </label>
 
-            <button type="submit" class="btn button-submit">
+            <button type="submit" class="btn btn--footer button-submit">
               Подписаться
-              <svg class="submit-svg" width="24" height="24">
+              <svg class="btn__submit submit-svg" width="24" height="24">
                 <use href="./images/icons.svg#icon-send"></use>
               </svg>
             </button>
@@ -614,38 +616,52 @@
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button class="modal-button" data-modal-close>
-          <svg class="modal-icon" width="18px" height="18px">
+        <button class="btn-modal modal-button" data-modal-close>
+          <svg class="btn-modal__icon modal-icon" width="18px" height="18px">
             <use href="./images/icons.svg#close"></use>
           </svg>
         </button>
-        <div class="modal-window">
-          <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
-          <form action="#" class="modal-form">
-            <div class="modal-field">
-              <label for="person" class="label-field">Имя </label>
+        <div class="modal__window modal-window">
+          <p class="modal__title modal-title">
+            Оставьте свои данные, мы вам перезвоним
+          </p>
+          <form action="#" class="modal__form modal-form">
+            <div class="modal__field modal-field">
+              <label for="person" class="modal__label label-field">Имя </label>
               <input
                 type="text"
                 name="person"
                 id="person"
-                class="input-field"
+                class="modal__input input-field"
               />
-              <svg class="modal-svg" width="18" height="18">
+              <svg class="modal__icon modal-svg" width="18" height="18">
                 <use href="./images/icons.svg#person-modal"></use>
               </svg>
             </div>
-            <div class="modal-field">
-              <label for="phone" class="label-field">Телефон</label>
-              <input type="tel" name="phone" id="phone" class="input-field" />
-              <svg class="modal-svg" width="18" height="18">
+            <div class="modal__field modal-field">
+              <label for="phone" class="modal__label label-field"
+                >Телефон</label
+              >
+              <input
+                type="tel"
+                name="phone"
+                id="phone"
+                class="modal__input input-field"
+              />
+              <svg class="modal__icon modal-svg" width="18" height="18">
                 <use href="./images/icons.svg#phone-modal"></use>
               </svg>
             </div>
-            <div class="modal-field">
-              <label for="email" class="label-field">Почта</label>
+            <div class="modal__field modal-field">
+              <label for="email" class="modal__label label-field">Почта</label>
 
-              <input type="email" name="email" id="email" class="input-field" />
-              <svg class="modal-svg" width="18" height="18">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="modal__input input-field"
+              />
+              <svg class="modal__icon modal-svg" width="18" height="18">
                 <use href="./images/icons.svg#email-modal"></use>
               </svg>
             </div>
