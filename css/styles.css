@@ -705,7 +705,7 @@ img {
 .contacts-info .item:not(:last-child) {
   margin-bottom: 9px;
 }
-
+/**********JOINBLOCK********** */
 .join-block {
   margin-left: 70px;
 }
