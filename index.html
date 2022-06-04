@@ -665,10 +665,12 @@
                 <use href="./images/icons.svg#email-modal"></use>
               </svg>
             </div>
-            <div class="textarea-field">
-              <label for="feedback" class="label-field">Комментарий </label>
+            <div class="textarea textarea-field">
+              <label for="feedback" class="textarea__label label-field"
+                >Комментарий
+              </label>
               <textarea
-                class="label-field feedback-part"
+                class="textarea__field label-field feedback-part"
                 name="feedback"
                 id="feedback"
                 rows="10"
@@ -676,16 +678,22 @@
               ></textarea>
             </div>
 
-            <label class="checkbox-label">
-              <input type="checkbox" name="checkbox" class="checkbox-input" />
-              <svg class="checkbox-svg" width="16" height="15">
+            <label class="checkbox checkbox-label">
+              <input
+                type="checkbox"
+                name="checkbox"
+                class="checkbox__input checkbox-input"
+              />
+              <svg class="checkbox__icon checkbox-svg" width="16" height="15">
                 <use href="./images/icon-checkbox"></use>
               </svg>
               Соглашаюсь с рассылкой и принимаю
-              <a href="" class="checkbox-link"> Условия договора</a>
+              <a href="" class="checkbox__link checkbox-link">
+                Условия договора</a
+              >
             </label>
 
-            <button type="submit" class="btn btn-field">Отправить</button>
+            <button type="submit" class="btn">Отправить</button>
           </form>
         </div>
       </div>

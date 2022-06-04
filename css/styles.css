@@ -219,7 +219,7 @@ ul {
 }
 
 .btn {
-  display: inline-block;
+  display: block;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -232,6 +232,8 @@ ul {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
 
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -536,13 +538,8 @@ img {
 }
 
 .btn-ptfolio {
-  border: none;
-}
-
-.btn-ptfolio {
-  font-family: inherit;
+  font: inherit;
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
@@ -550,16 +547,13 @@ img {
   background-color: var(--button-text-color);
 
   cursor: pointer;
-  padding-top: 6px;
-  padding-bottom: 6px;
-  padding-right: 22px;
-  padding-left: 22px;
-  border-radius: 4px;
-
+  padding: 6px 22px;
+  border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .btn-ptfolio:hover,
 .btn-ptfolio:focus {
   color: var(--add-text-color);
@@ -943,12 +937,6 @@ textarea {
 
 .checkbox-input:focus + .checkbox-svg {
   border-color: var(--nav-color);
-}
-
-.btn-field {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 /* *********************SECTION BACKDROP************************ */
