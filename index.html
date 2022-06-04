@@ -26,7 +26,7 @@
   </head>
   <body>
     <header class="header">
-      <div class="header container">
+      <div class="container header">
         <nav class="nav">
           <a lang="en" href="" class="link logo"
             >Web <span class="logo__accent accent">Studio</span></a
@@ -89,7 +89,7 @@
       </section>
 
       <section class="features values-description">
-        <ul class="features__container container values">
+        <ul class="container values">
           <li class="features__item item antenna">
             <div class="features__meta value-list">
               <svg
@@ -157,49 +157,49 @@
         </ul>
       </section>
       <section class="about product-description">
-        <div class="about__container container product">
+        <div class="container">
           <h2 class="about__title title">Чем мы занимаемся</h2>
           <ul class="about__products product-photos">
             <li class="about__item item">
-              <div class="about__img product-thumb">
+              <div class="about__thumb product-thumb">
                 <img
                   src="./images/box1.jpg"
                   alt="notebook"
                   width="370"
-                  class="photo"
+                  class="about__img photo"
                 />
                 <div class="about__description product-app">
-                  <a href="" class="link values-title decision"
+                  <a href="" class="about__link link values-title decision"
                     >Десктопные приложения</a
                   >
                 </div>
               </div>
             </li>
             <li class="about__item item">
-              <div class="about__img product-thumb">
+              <div class="about__thumb product-thumb">
                 <img
                   src="./images/box2.jpg"
                   alt="phone"
                   width="370"
-                  class="photo"
+                  class="about__img photo"
                 />
                 <div class="about__description product-app">
-                  <a href="" class="link values-title decision"
+                  <a href="" class="about__link link values-title decision"
                     >Мобильные приложения</a
                   >
                 </div>
               </div>
             </li>
             <li class="about__item item">
-              <div class="about__img product-thumb">
+              <div class="about__thumb product-thumb">
                 <img
                   src="./images/box3.jpg"
                   alt="tab"
                   width="370"
-                  class="photo"
+                  class="abut__img photo"
                 />
                 <div class="about__description product-app">
-                  <a href="" class="link values-title decision"
+                  <a href="" class="about__link link values-title decision"
                     >Дизайнерские решения</a
                   >
                 </div>
@@ -209,14 +209,14 @@
         </div>
       </section>
       <section class="team">
-        <div class="team__container container team-part">
+        <div class="container">
           <h2 class="team__title title team-title">Наша команда</h2>
           <ul class="team__list team-info">
             <li class="team__item item">
               <img
                 src="./images/person1.jpg"
                 alt="Игорь Демьяненко"
-                class="team__photo list"
+                class="team__img list"
               />
               <div class="team__description team-name">
                 <h3 class="team__name team-member">Игорь Демьяненко</h3>
@@ -224,18 +224,22 @@
                   Product Designer
                 </p>
 
-                <ul class="team__nets logos-list">
-                  <li class="team__network snet-item">
-                    <a href="" class="team__link logo-item">
-                      <svg class="team__icon logo-snet" width="20" height="20">
+                <ul class="social-net logos-list">
+                  <li class="social-net__item snet-item">
+                    <a href="" class="social-net__link logo-item">
+                      <svg
+                        class="social-net__icon logo-snet"
+                        width="20"
+                        height="20"
+                      >
                         <use href="./images/icons.svg#instagram"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team__network snet-item">
-                    <a href="" class="team__link logo-item">
+                  <li class="social-net__item snet-item">
+                    <a href="" class="social-net__link logo-item">
                       <svg
-                        class="team__icon logo-snet"
+                        class="social-net__icon logo-snet"
                         width="20px"
                         height="20px"
                       >
@@ -243,10 +247,10 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="team__network snet-item">
-                    <a href="" class="team__link logo-item">
+                  <li class="social-net__item snet-item">
+                    <a href="" class="social-net__link logo-item">
                       <svg
-                        class="team__icon logo-snet"
+                        class="social-net__icon logo-snet"
                         width="20px"
                         height="20px"
                       >
@@ -254,10 +258,10 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="team__network snet-item">
-                    <a href="" class="team__link logo-item">
+                  <li class="social-net__item snet-item">
+                    <a href="" class="social-net__link logo-item">
                       <svg
-                        class="team__icon logo-snet"
+                        class="social-net__icon logo-snet"
                         width="20px"
                         height="20px"
                       >
@@ -272,25 +276,29 @@
               <img
                 src="./images/person2.jpg"
                 alt="Ольга Репина"
-                class="team__photo list"
+                class="team__img list"
               />
               <div class="team__description team-name">
                 <h3 class="team__name team-member">Ольга Репина</h3>
                 <p lang="en" class="team__position team-position">
                   Frontend Developer
                 </p>
-                <ul class="team__nets logos-list">
-                  <li class="team__network snet-item">
-                    <a href="" class="team__link logo-item">
-                      <svg class="team__icon logo-snet" width="20" height="20">
+                <ul class="social-net logos-list">
+                  <li class="social-net__item snet-item">
+                    <a href="" class="social-net__link logo-item">
+                      <svg
+                        class="social-net__icon logo-snet"
+                        width="20"
+                        height="20"
+                      >
                         <use href="./images/icons.svg#instagram"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team__network snet-item">
-                    <a href="" class="team__link logo-item">
+                  <li class="social-net__item snet-item">
+                    <a href="" class="social-net__link logo-item">
                       <svg
-                        class="team__icon logo-snet"
+                        class="social-net__icon logo-snet"
                         width="20px"
                         height="20px"
                       >
@@ -298,10 +306,10 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="team__network snet-item">
-                    <a href="" class="team__link logo-item">
+                  <li class="social-net__item snet-item">
+                    <a href="" class="social-net__link logo-item">
                       <svg
-                        class="team__icon logo-snet"
+                        class="social-net__icon logo-snet"
                         width="20px"
                         height="20px"
                       >
@@ -309,10 +317,10 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="team__network snet-item">
-                    <a href="" class="team__link logo-item">
+                  <li class="social-net__item snet-item">
+                    <a href="" class="social-net__link logo-item">
                       <svg
-                        class="team__icon logo-snet"
+                        class="social-net__icon logo-snet"
                         width="20px"
                         height="20px"
                       >
@@ -327,23 +335,27 @@
               <img
                 src="./images/person3.jpg"
                 alt="Николай Тарасов"
-                class="team__photo list"
+                class="team__img list"
               />
               <div class="team__description team-name">
                 <h3 class="team__name team-member">Николай Тарасов</h3>
                 <p lang="en" class="team__position team-position">Marketing</p>
-                <ul class="team__nets logos-list">
-                  <li class="team__network snet-item">
-                    <a href="" class="team__link logo-item">
-                      <svg class="team__icon logo-snet" width="20" height="20">
+                <ul class="social-net logos-list">
+                  <li class="social-net__item snet-item">
+                    <a href="" class="social-net__link logo-item">
+                      <svg
+                        class="social-net__icon logo-snet"
+                        width="20"
+                        height="20"
+                      >
                         <use href="./images/icons.svg#instagram"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team__network snet-item">
-                    <a href="" class="team__link logo-item">
+                  <li class="social-net__item snet-item">
+                    <a href="" class="social-net__link logo-item">
                       <svg
-                        class="team__icon logo-snet"
+                        class="social-net__icon logo-snet"
                         width="20px"
                         height="20px"
                       >
@@ -351,10 +363,10 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="team__network snet-item">
-                    <a href="" class="team__link logo-item">
+                  <li class="social-net__item snet-item">
+                    <a href="" class="social-net__link logo-item">
                       <svg
-                        class="team__icon logo-snet"
+                        class="social-net__icon logo-snet"
                         width="20px"
                         height="20px"
                       >
@@ -362,10 +374,10 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="team__network snet-item">
-                    <a href="" class="team__link logo-item">
+                  <li class="social-net__item snet-item">
+                    <a href="" class="social-net__link logo-item">
                       <svg
-                        class="team__icon logo-snet"
+                        class="social-net__icon logo-snet"
                         width="20px"
                         height="20px"
                       >
@@ -380,25 +392,29 @@
               <img
                 src="./images/person4.jpg"
                 alt="Михаил Ермаков"
-                class="team__photo list"
+                class="team__img list"
               />
               <div class="team__description team-name">
                 <h3 class="team__name team-member">Михаил Ермаков</h3>
                 <p lang="en" class="team__position team-position">
                   UI Designer
                 </p>
-                <ul class="team__nets logos-list">
-                  <li class="team__network snet-item">
-                    <a href="" class="team__link logo-item">
-                      <svg class="team__icon logo-snet" width="20" height="20">
+                <ul class="social-net logos-list">
+                  <li class="social-net__item snet-item">
+                    <a href="" class="social-net__link logo-item">
+                      <svg
+                        class="social-net__icon logo-snet"
+                        width="20"
+                        height="20"
+                      >
                         <use href="./images/icons.svg#instagram"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team__network snet-item">
-                    <a href="" class="team__link logo-item">
+                  <li class="social-net__item snet-item">
+                    <a href="" class="social-net__link logo-item">
                       <svg
-                        class="team__icon logo-snet"
+                        class="social-net__icon logo-snet"
                         width="20px"
                         height="20px"
                       >
@@ -406,10 +422,10 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="team__network snet-item">
-                    <a href="" class="team__link logo-item">
+                  <li class="social-net__item snet-item">
+                    <a href="" class="social-net__link logo-item">
                       <svg
-                        class="team__icon logo-snet"
+                        class="social-net__icon logo-snet"
                         width="20px"
                         height="20px"
                       >
@@ -417,10 +433,10 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="team__network snet-item">
-                    <a href="" class="team__link logo-item">
+                  <li class="social-net__item snet-item">
+                    <a href="" class="social-net__link logo-item">
                       <svg
-                        class="team__icon logo-snet"
+                        class="social-net__icon logo-snet"
                         width="20px"
                         height="20px"
                       >
