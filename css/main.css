@@ -19,7 +19,7 @@
   outline: 3px dotted blueviolet;
 }
 
-.header {
+.header__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -48,8 +48,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .nav__item {
