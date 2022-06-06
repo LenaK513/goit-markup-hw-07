@@ -3,7 +3,6 @@
   padding-bottom: 94px;
 }
 
-.features__container {
-  @extend %ul;
+.features__item {
   @extend %li;
 }
