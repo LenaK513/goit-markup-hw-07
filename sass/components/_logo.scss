@@ -7,9 +7,11 @@
   letter-spacing: 0.03em;
   color: $color-accent;
   @extend %link;
-  margin-right: 93px;
 
   &__accent {
     color: $color-logo;
   }
+}
+.header__logo {
+  margin-right: 93px;
 }
