@@ -203,6 +203,35 @@
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
+.btn--submit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 12px;
+  -webkit-box-shadow: transparent;
+          box-shadow: transparent;
+  -webkit-transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn--submit:hover, .btn--submit:focus {
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.btn__icon {
+  margin-left: 10px;
+  fill: #ffffff;
+}
+
 .features__container {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -544,6 +573,12 @@
   margin-left: 93px;
 }
 
+.submit-block__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .submit-block__input {
   padding: 0;
   margin: 0;
@@ -560,5 +595,40 @@
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 2500ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 2500ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 2500ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.submit-block__input:hover, .submit-block__input:focus {
+  outline: transparent;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-color: #2196f3;
+}
+
+.submit-block__input::-webkit-input-placeholder {
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.submit-block__input:-ms-input-placeholder {
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.submit-block__input::-ms-input-placeholder {
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.submit-block__input::placeholder {
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 /*# sourceMappingURL=main.css.map */
