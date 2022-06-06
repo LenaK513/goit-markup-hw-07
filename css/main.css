@@ -1,4 +1,4 @@
-.nav__list, .contact-list {
+.nav__list, .contact-list, .features__list {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -198,5 +198,44 @@
 .btn:hover, .btn:focus {
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.features {
+  background-color: #955b5b;
+}
+
+.features__container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.features__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+.features__item {
+  width: 270px;
+}
+
+.features__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.features__item__thumb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 120px;
+  background-color: var(--button-text-color);
 }
 /*# sourceMappingURL=main.css.map */

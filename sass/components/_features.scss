@@ -1,8 +1,31 @@
 .features {
+  background-color: rgb(149, 91, 91);
+}
+
+.features__container {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
+.features__list {
+  @extend %ul;
+  display: flex;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
 .features__item {
-  @extend %li;
+  width: 270px;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  &__thumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    background-color: var(--button-text-color);
+  }
 }
