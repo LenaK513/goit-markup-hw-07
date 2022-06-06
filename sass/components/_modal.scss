@@ -1,0 +1,12 @@
+.modal {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 528px;
+  height: 581px;
+  background-color: $color-third;
+  opacity: 1;
+  padding: 40px;
+}
