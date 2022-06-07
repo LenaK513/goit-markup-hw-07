@@ -1,3 +1,8 @@
+.gallery {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .grid {
   @extend %ul;
   display: flex;
