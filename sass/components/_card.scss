@@ -39,17 +39,17 @@
     transform: translateY(0);
   }
 }
-.card__ text {
+.card__text {
   font-family: Roboto;
   font-size: 18px;
   line-height: 1.56;
   letter-spacing: 0.03em;
-  color: var(--add-text-color);
+  color: $color-third;
   margin: 0;
 }
 
 .card__name {
-  padding: 24px 20px;
+  padding: 20px 24px;
   border-right: 1px solid $card-portfolio;
   border-left: 1px solid $card-portfolio;
   border-bottom: 1px solid $card-portfolio;
