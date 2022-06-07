@@ -1,0 +1,10 @@
+.grid {
+  @extend %ul;
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+
+.grid__item:not(:last-child) {
+  margin-right: 8px;
+}

@@ -20,7 +20,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/portfolio.min.css" />
     <title>Portfolio</title>
   </head>
   <body>
@@ -65,44 +65,41 @@
       </div>
     </header>
     <main>
-      <section class="photos">
+      <section class="card-set">
         <div class="container">
           <!-- <div class="container apps"> -->
-          <ul class="grid apps">
-            <li class="grid__item item">
-              <button type="button" class="btn btn--prtfolio btn-ptfolio">
-                Все
-              </button>
+          <ul class="grid">
+            <li class="grid__item">
+              <button type="button" class="btn btn--prtfolio">Все</button>
             </li>
             <li class="grid__item">
-              <button type="button" class="btn btn--prtfolio btn-ptfolio">
-                Веб-сайты
-              </button>
+              <button type="button" class="btn btn--prtfolio">Веб-сайты</button>
             </li>
             <li class="grid__item">
-              <button type="button" class="btn btn--prtfolio btn-ptfolio">
+              <button type="button" class="btn btn--prtfolio">
                 Приложение
               </button>
             </li>
             <li class="grid__item">
-              <button type="button" class="btn btn--prtfolio btn-ptfolio">
-                Дизайн
-              </button>
+              <button type="button" class="btn btn--prtfolio">Дизайн</button>
             </li>
             <li class="grid__item">
-              <button type="button" class="btn btn--prtfolio btn-ptfolio">
-                Маркетинг
-              </button>
+              <button type="button" class="btn btn--prtfolio">Маркетинг</button>
             </li>
           </ul>
           <!-- </div> -->
 
           <!-- <div class="container project-list"> -->
-          <ul class="grid card-set project">
+          <ul class="grid card-set__grid project">
             <li class="grid__item card-set__item item">
               <a href="" class="card">
                 <div class="card__thumb card-thumb">
-                  <img src="./images/img1.jpg" alt="Технокряк" width="370" />
+                  <img
+                    src="./images/img1.jpg"
+                    alt="Технокряк"
+                    width="370"
+                    class="card__img"
+                  />
                   <div class="card__wrap card-info">
                     <p class="card__text card-text">
                       Lorem ipsum dolor sit, amet consectetur adipisicing elit.
