@@ -1,6 +1,6 @@
 .card {
   display: inline-block;
-  text-decoration: none;
+  @extend %link;
   box-shadow: none;
   border: none;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -50,9 +50,9 @@
 
 .card__name {
   padding: 20px 24px;
-  border-right: 1px solid $card-portfolio;
-  border-left: 1px solid $card-portfolio;
-  border-bottom: 1px solid $card-portfolio;
+  // border-right: 1px solid $card-portfolio;
+  // border-left: 1px solid $card-portfolio;
+  // border-bottom: 1px solid $card-portfolio;
 }
 
 .card__title {
