@@ -15,4 +15,8 @@
   opacity: 0;
   pointer-events: none;
   transform: scale(0);
+  &.modal {
+    opacity: 0;
+    transform: translate(50%, 50%);
+  }
 }
