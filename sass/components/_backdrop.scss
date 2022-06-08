@@ -9,10 +9,4 @@
   transform: scale(1);
 
   transition: transform 250ms, opacity 250ms, scale 250ms;
-
-  &__is-hidden {
-    opacity: 0;
-    pointer-events: none;
-    transform: scale(0);
-  }
 }
